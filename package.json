@@ -1,0 +1,38 @@
+{
+  "name": "hopeandhunterherren",
+  "version": "1.0.0",
+  "description": "Hope and Hunter's Wedding website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seeds.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretchesketch/HopeAndHunterHerren.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretchesketch/HopeAndHunterHerren/issues"
+  },
+  "homepage": "https://github.com/gretchesketch/HopeAndHunterHerren#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "sequelize": "^6.25.2"
+  }
+}
