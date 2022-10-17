@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+
+
+body {
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .title {
+    color: #A7D6D6;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-flex;
+    display: flex;
+  }
+/* nav bar style */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #41434C;
+    padding: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li a {
+    display: block;
+    color: #A7D6D6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #7AA59C;
+  }
+  li {
+    border-right: 1px solid #bbb;
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    background: #41434C;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  /* photo gallery drop down menu in navbar */
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+
+
+
+
+  /* Style the footer */
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: #5C6F78;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
